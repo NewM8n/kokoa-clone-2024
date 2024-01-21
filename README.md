@@ -1,3 +1,3 @@
 # Kokoa Clone 2024
 
-HTML & CSS are so much fun!
+ㅠㅠ 더 공부해서 제대로 제출할게요
