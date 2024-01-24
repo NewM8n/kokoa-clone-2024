@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Your Journal</title>
+    <style>
+        img {
+            transition: transform 1s ease-in-out ;
+        }
+        img:hover {
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>2:39</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-signal"></i>
+            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-solid fa-battery-three-quarters fa-xl"></i>
+        </div>
+    </div>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="profile.html">
+                    <i class="fa-solid fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="list.html">
+                    <i class="fa-solid fa-list fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="summary.html">
+                    <i class="fa-solid fa-star fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <header class="profile-header">
+        <h1 class="profile-header__title">Journal 을 작성할 프로필을 선택하세요.</h1>
+        <h1 class="profile-header__change">변경</h1>
+    </header>
+    <Main class="profile-list">
+        <section class="profile-list__section">
+            <div class="avatar-wrapper">
+                <img class="profile-icon" onclick='location.href = "list.html"' src=https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABZdXOrUkdmjD0Ge4uCzlgwyDs_qvROXcRVHb3QZSir4rTX9XcrtyuXSSslY6gJJL8mg6RSCYZy5ZKqrUhqmoTL-A0002zvWjM10g.png?r=bba>
+                <span>대장</span>
+            </div>
+            <div class="avatar-wrapper">
+                <img class="profile-icon" onclick='location.href = "list.html"' src=https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABTxO1HAzIh18LDAY7Igs6qQ3GhmsclmpCllWnoojeSDD0lMm9hUCp-C4VGo3cT40xfg_7SpIoY6pmRIl-W7B5CN8kvXCBqM7n8_f.png?r=a4b>
+                <span>공주</span>
+            </div>
+            <div class="avatar-wrapper">
+                <img class="profile-icon" onclick='location.href = "list.html"' src=https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc44CgIxjC7aFcsRrnBbbUgCKGsK6Q8fY9MZlDptMUmZouwP_OAu-yusjfJSa_cPBmQqZAxRg88IEwiPNc6mDRmkYAMLzBM762NB.png?r=8d7>
+                <span>왕자</span>
+            </div>
+            <div class="avatar-wrapper">
+                <img class="profile-icon" onclick='location.href = "list.html"' src=https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABcneBldkGcbgYjPgwnW-HRjOJ93AwX39sxZ2FAj4IPlGtigiVmEXnXGteXkpfXhQLoHHFocRZjxundCZlmgei__FL_RnasQBgkuv.png?r=7c7>
+                <span>째깐둥이</span>
+            </div>
+        </section>
+    </Main>
+    <script 
+        src="https://kit.fontawesome.com/40aa111a4e.js" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

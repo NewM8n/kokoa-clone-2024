@@ -1,0 +1,78 @@
+.summary-list__container {
+    height : 100vh;
+}
+.summary-list__name {
+    display: block ;
+    margin: 20px 10px;
+}
+.summary-list__box {
+    display: flex;
+    flex-direction: flex-start;
+    overflow-x: scroll;
+    margin-left: 5px;
+    
+}
+
+.favorite-img__food{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-image: url("https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc44CgIxjC7aFcsRrnBbbUgCKGsK6Q8fY9MZlDptMUmZouwP_OAu-yusjfJSa_cPBmQqZAxRg88IEwiPNc6mDRmkYAMLzBM762NB.png?r=8d7");
+}
+
+.favorite-img__food{
+    width:120px;
+    height:150px;
+}
+.favorite-img__food{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-image: url("https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc44CgIxjC7aFcsRrnBbbUgCKGsK6Q8fY9MZlDptMUmZouwP_OAu-yusjfJSa_cPBmQqZAxRg88IEwiPNc6mDRmkYAMLzBM762NB.png?r=8d7");
+}
+.favorite-img__restaurant{
+    width:120px;
+    height:150px;
+}
+.favorite-img__restaurant{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-image: url("https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc44CgIxjC7aFcsRrnBbbUgCKGsK6Q8fY9MZlDptMUmZouwP_OAu-yusjfJSa_cPBmQqZAxRg88IEwiPNc6mDRmkYAMLzBM762NB.png?r=8d7");
+}
+.favorite-img__travel{
+    width:120px;
+    height:150px;
+}
+.favorite-img__travel{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-image: url("https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc44CgIxjC7aFcsRrnBbbUgCKGsK6Q8fY9MZlDptMUmZouwP_OAu-yusjfJSa_cPBmQqZAxRg88IEwiPNc6mDRmkYAMLzBM762NB.png?r=8d7");
+}
+.favorite-img__movie{
+    width:120px;
+    height:150px;
+}
+.favorite-img__movie{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-image: url("https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc44CgIxjC7aFcsRrnBbbUgCKGsK6Q8fY9MZlDptMUmZouwP_OAu-yusjfJSa_cPBmQqZAxRg88IEwiPNc6mDRmkYAMLzBM762NB.png?r=8d7");
+}
+.favorite-img__drama{
+    width:120px;
+    height:150px;
+}
+.favorite-img__drama{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-image: url("https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc44CgIxjC7aFcsRrnBbbUgCKGsK6Q8fY9MZlDptMUmZouwP_OAu-yusjfJSa_cPBmQqZAxRg88IEwiPNc6mDRmkYAMLzBM762NB.png?r=8d7");
+}

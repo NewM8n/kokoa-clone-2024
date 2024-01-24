@@ -1,8 +1,11 @@
+body {
+    background-color: var(--forth_green);
+}
 .profile-header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .profile-header__title {
     font-size : 20px;
@@ -29,7 +32,9 @@
     width: 110px;
     height: 110px;
     border-radius: 10px;
+    cursor: pointer;
 }
+
 .avatar-wrapper {
     display: flex;
     flex-direction: column;
@@ -38,6 +43,7 @@
     margin-bottom: 50px;
 }
 .avatar-wrapper span {
-    margin: 10px 0;
+    margin: 15px 0;
     font-size: 18px;
+    font-weight: 30px;
 }

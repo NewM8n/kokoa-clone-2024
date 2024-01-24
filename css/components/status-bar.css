@@ -1,8 +1,13 @@
 .status-bar {
     display: flex;
     justify-content: space-between;
+    color: black;
+    margin: 10px 10px;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    box-sizing: border-box;
 }
 .status-bar :first-child {
     font-weight: bold;
-    margin-left: 10px;
 }

@@ -1,0 +1,52 @@
+.login-header__title {
+    margin: 80px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+}
+
+#login-form input {
+    padding: 20px 15px;
+    border: none;
+    font-size: 18px;
+}
+
+#login-form input::placeholder {
+     color: rgba(0,0,0,0.4);
+}
+
+#login-form input:focus {
+    background-color:var(--forth_green);
+    border-radius: 5px;
+    border-bottom: 0px ;
+}
+
+#login-form input:not([type="submit"]){
+    border-bottom: 1px solid var(--second_green);
+    margin-bottom: 25px;
+    transition: all 0.7s ease-in-out;
+}
+
+#login-form input[type="submit"]{
+    background-color: var(--second_green);
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.create-account {
+    margin-left: 30px;
+}
+
+.account-link {
+    color : black;
+    border-bottom: 1px solid;
+}
