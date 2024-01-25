@@ -3,35 +3,48 @@
 }
 .summary-list__name {
     display: block ;
-    margin: 20px 10px;
+    margin: 25px 10px;
+    font-weight: bold;
 }
 .summary-list__box {
     display: flex;
     flex-direction: flex-start;
+    align-items: center;
     overflow-x: scroll;
-    margin-left: 5px;
-    
+    height: 190px;
+    transform: translateY(50px);
+    opacity: 0;
+    animation: appearListAnimation 0.5s ease-in-out forwards;
+}
+.summary-list__container .summary-list__box:first-child {
+    background-color: var(--second_green);
+}
+.summary-list__container .summary-list__box:nth-child(2) {
+    background-color: var(--third_green);
+    animation-delay: 0.3s;
+}
+.summary-list__container .summary-list__box:nth-child(3) {
+    background-color: var(--forth_green);
+    animation-delay: 0.6s;
+}
+.summary-list__container .summary-list__box:last-child {
+    background-color: var(--main_green);
+    animation-delay: 0.9s;
 }
 
 .favorite-img__food{
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    margin-right: 10px;
-    background-image: url("https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc44CgIxjC7aFcsRrnBbbUgCKGsK6Q8fY9MZlDptMUmZouwP_OAu-yusjfJSa_cPBmQqZAxRg88IEwiPNc6mDRmkYAMLzBM762NB.png?r=8d7");
+    margin-left: 10px;
+    background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzEyMjhfODQg%2FMDAxNzAzNzc0MTM2ODA2.1cguXNKBuZfXaV35Cr4zLlF1p0vqTqoNl7V1I1Em_vAg.ckRqv4yK8VBEtezk6h6WNruDR9sW3j81ATi-fV9-M8Ig.JPEG.ssokim0325%2F20231210%25A3%25DF143116.jpg&type=sc960_832");
 }
 
 .favorite-img__food{
     width:120px;
     height:150px;
 }
-.favorite-img__food{
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    margin-right: 10px;
-    background-image: url("https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc44CgIxjC7aFcsRrnBbbUgCKGsK6Q8fY9MZlDptMUmZouwP_OAu-yusjfJSa_cPBmQqZAxRg88IEwiPNc6mDRmkYAMLzBM762NB.png?r=8d7");
-}
+
 .favorite-img__restaurant{
     width:120px;
     height:150px;
@@ -41,7 +54,7 @@
     background-position: center;
     border-radius: 10px;
     margin-right: 10px;
-    background-image: url("https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc44CgIxjC7aFcsRrnBbbUgCKGsK6Q8fY9MZlDptMUmZouwP_OAu-yusjfJSa_cPBmQqZAxRg88IEwiPNc6mDRmkYAMLzBM762NB.png?r=8d7");
+    background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMDNfMTkw%2FMDAxNzA0MjczNjUwMjc5.WVrOiIFSwbuqR-NS0f5i653m4aN-mS2lLoNXCQ7iymEg.WhKIB6KEWtkIZ0aoCo-Qu3cI8CLnVVtTWxLDgCLgOL8g.JPEG.hong50799%2FKakaoTalk_20230902_213351885.jpg&type=sc960_832");
 }
 .favorite-img__travel{
     width:120px;
@@ -52,7 +65,7 @@
     background-position: center;
     border-radius: 10px;
     margin-right: 10px;
-    background-image: url("https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc44CgIxjC7aFcsRrnBbbUgCKGsK6Q8fY9MZlDptMUmZouwP_OAu-yusjfJSa_cPBmQqZAxRg88IEwiPNc6mDRmkYAMLzBM762NB.png?r=8d7");
+    background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMDJfMjE5%2FMDAxNzA0MjA3Mzc0NDQ2.4mdgfQT7b71VNUjNDc4JoU_npOXKf5wV1nkPY5fQQe4g.Xgg5a1h5AfN-l8khvEmKeDBy5Ro8NHci55mIY6yLZi4g.JPEG.tjdal8512%2F00.jpg&type=a340");
 }
 .favorite-img__movie{
     width:120px;
@@ -63,16 +76,15 @@
     background-position: center;
     border-radius: 10px;
     margin-right: 10px;
-    background-image: url("https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc44CgIxjC7aFcsRrnBbbUgCKGsK6Q8fY9MZlDptMUmZouwP_OAu-yusjfJSa_cPBmQqZAxRg88IEwiPNc6mDRmkYAMLzBM762NB.png?r=8d7");
+    background-image: url("https://search.pstatic.net/common?type=o&size=176x264&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20191121_221%2F1574298335357mqgLk_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
 }
-.favorite-img__drama{
-    width:120px;
-    height:150px;
-}
-.favorite-img__drama{
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    margin-right: 10px;
-    background-image: url("https://occ-0-1361-988.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc44CgIxjC7aFcsRrnBbbUgCKGsK6Q8fY9MZlDptMUmZouwP_OAu-yusjfJSa_cPBmQqZAxRg88IEwiPNc6mDRmkYAMLzBM762NB.png?r=8d7");
+@keyframes appearListAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform : none;
+        
+    }
 }
